@@ -17,10 +17,10 @@ app.use('/api/item',itemsRoute)
 app.use('/api/user',authRoute)
 app.use('/api/bid',bidRoute)
 
-
-// app.get('/', (req,res)=>{
-//     res.send('Docker contains ccbay app')
-// })
+// basic run check
+app.get('/', (req,res)=>{
+    res.send('ccbay app.js is running')
+})
 
 
 // connect to Mongo DB (DB_CONNECTOR is stored in .env)

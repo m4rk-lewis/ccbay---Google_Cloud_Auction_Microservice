@@ -18,9 +18,9 @@ app.use('/api/user',authRoute)
 app.use('/api/bid',bidRoute)
 
 
-app.get('/', (req,res)=>{
-    res.send('Docker contains ccbay app')
-})
+// app.get('/', (req,res)=>{
+//     res.send('Docker contains ccbay app')
+// })
 
 
 // connect to Mongo DB (DB_CONNECTOR is stored in .env)
